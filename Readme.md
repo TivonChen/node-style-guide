@@ -249,24 +249,6 @@ if (a == '') {
 
 [comparisonoperators]: https://developer.mozilla.org/en/JavaScript/Reference/Operators/Comparison_Operators
 
-## 三元操作符分多行
-
-三元操作符不应该写在一行，将它分割到多行。
-
-*Right:*
-
-```js
-var foo = (a === b)
-  ? 1
-  : 2;
-```
-
-*Wrong:*
-
-```js
-var foo = (a === b) ? 1 : 2;
-```
-
 ## 不要扩展内建类型
 
 不要扩展 javascript 内建对象的方法。将来的你会感谢你这个做法的。
